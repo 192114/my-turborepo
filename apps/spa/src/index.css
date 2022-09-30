@@ -1,0 +1,16 @@
+@import 'sanitize.css';
+@import './assets/styles/vars.css';
+
+body {
+  color: var(--main-color);
+  font-family: system-ui;
+  overflow-wrap: break-word;
+}
+
+a {
+  color: var(--main-color);
+
+  &:hover {
+    color: rebeccapurple;
+  }
+}
