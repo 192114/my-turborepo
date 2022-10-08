@@ -37,10 +37,15 @@ importers:
       portfinder: ^1.0.28
       postcss: ^8.4.17
       postcss-loader: ^7.0.1
+      postcss-normalize: ^10.0.1
+      postcss-preset-env: ^7.8.2
       react: ^18.2.0
       react-dom: ^18.2.0
       react-router-dom: ^6.3.0
       style-loader: ^3.3.1
+      stylelint: ^14.13.0
+      stylelint-config-prettier: ^9.0.3
+      stylelint-config-standard: ^28.0.0
       terser-webpack-plugin: ^5.3.3
       tsconfig: workspace:*
       typescript: ^4.7.4
@@ -79,7 +84,12 @@ importers:
       portfinder: 1.0.32
       postcss: 8.4.17
       postcss-loader: 7.0.1_sat2ilddhdkv6huwh4d4inpfry
+      postcss-normalize: 10.0.1_dumrjbqyj3z7f4pm3eq7hvks24
+      postcss-preset-env: 7.8.2_postcss@8.4.17
       style-loader: 3.3.1_webpack@5.74.0
+      stylelint: 14.13.0
+      stylelint-config-prettier: 9.0.3_stylelint@14.13.0
+      stylelint-config-standard: 28.0.0_stylelint@14.13.0
       terser-webpack-plugin: 5.3.6_webpack@5.74.0
       tsconfig: link:../../packages/tsconfig
       typescript: 4.8.4
