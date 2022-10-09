@@ -4,9 +4,11 @@
   "scss.validate": false,
   "stylelint.enable": true,
   "stylelint.validate": ["css"],
-  "eslint.validate": ["typescript", "typescriptreact", "javascript"],
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "stylelint.packageManager":"pnpm",
   "files.eol": "\n",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features",
     "editor.codeActionsOnSave": {
@@ -21,7 +23,7 @@
   "eslint.enable": true,
   "eslint.run": "onSave",
   "eslint.debug": true,
-  "editor.formatOnSave": false,
-  "editor.formatOnPaste": false,
-  "git.ignoreLimitWarning": true
+  "eslint.packageManager": "pnpm",
+  "eslint.validate": ["typescript", "typescriptreact", "javascript", "javascriptreact"],
+  "git.ignoreLimitWarning": true,
 }
