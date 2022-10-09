@@ -2,7 +2,6 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const Dotenv = require('dotenv-webpack')
 const ESLintPlugin = require('eslint-webpack-plugin')
-const WebpackBar = require('webpackbar')
 
 module.exports = {
   entry: './src/index',
@@ -107,7 +106,6 @@ module.exports = {
       prefix: 'import.meta.env',
     }),
     new ESLintPlugin({ extensions: ['js', 'jsx', 'ts', 'tsx'] }),
-    new WebpackBar({ profile: true })
   ],
   resolve: {
     alias: {},

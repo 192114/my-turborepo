@@ -5,6 +5,7 @@ body {
   color: var(--main-color);
   font-family: system-ui;
   overflow-wrap: break-word;
+  font-size: 14.22px;
 }
 
 a {

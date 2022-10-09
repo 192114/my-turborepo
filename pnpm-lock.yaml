@@ -23,11 +23,9 @@ importers:
       '@types/react-dom': ^18.0.6
       axios: ^0.27.2
       babel-loader: ^8.2.5
-      browserslist: ^4.21.4
       config: workspace:*
       core-js: '3'
       css-loader: ^6.7.1
-      cssnano: ^5.1.13
       dotenv-webpack: ^8.0.0
       eslint: ^8.24.0
       eslint-webpack-plugin: ^3.2.0
@@ -37,15 +35,10 @@ importers:
       portfinder: ^1.0.28
       postcss: ^8.4.17
       postcss-loader: ^7.0.1
-      postcss-normalize: ^10.0.1
-      postcss-preset-env: ^7.8.2
       react: ^18.2.0
       react-dom: ^18.2.0
       react-router-dom: ^6.3.0
       style-loader: ^3.3.1
-      stylelint: ^14.13.0
-      stylelint-config-prettier: ^9.0.3
-      stylelint-config-standard: ^28.0.0
       terser-webpack-plugin: ^5.3.3
       tsconfig: workspace:*
       typescript: ^4.7.4
@@ -54,7 +47,6 @@ importers:
       webpack-cli: ^4.10.0
       webpack-dev-server: ^4.9.3
       webpack-merge: ^5.8.0
-      webpackbar: ^5.0.2
     dependencies:
       axios: 0.27.2
       core-js: 3.25.3
@@ -71,10 +63,8 @@ importers:
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       babel-loader: 8.2.5_wfdvla2jorjoj23kkavho2upde
-      browserslist: 4.21.4
       config: link:../../packages/config
       css-loader: 6.7.1_webpack@5.74.0
-      cssnano: 5.1.13_postcss@8.4.17
       dotenv-webpack: 8.0.1_webpack@5.74.0
       eslint: 8.24.0
       eslint-webpack-plugin: 3.2.0_j6jdqc6yj4dakyrvwvnzxinrfq
@@ -84,12 +74,7 @@ importers:
       portfinder: 1.0.32
       postcss: 8.4.17
       postcss-loader: 7.0.1_sat2ilddhdkv6huwh4d4inpfry
-      postcss-normalize: 10.0.1_dumrjbqyj3z7f4pm3eq7hvks24
-      postcss-preset-env: 7.8.2_postcss@8.4.17
       style-loader: 3.3.1_webpack@5.74.0
-      stylelint: 14.13.0
-      stylelint-config-prettier: 9.0.3_stylelint@14.13.0
-      stylelint-config-standard: 28.0.0_stylelint@14.13.0
       terser-webpack-plugin: 5.3.6_webpack@5.74.0
       tsconfig: link:../../packages/tsconfig
       typescript: 4.8.4
@@ -97,7 +82,6 @@ importers:
       webpack-cli: 4.10.0_vnmgq7jx5zjkzolvtfp7mdf5ri
       webpack-dev-server: 4.11.1_5v66e2inugklgvlh4huuavolfq
       webpack-merge: 5.8.0
-      webpackbar: 5.0.2_webpack@5.74.0
 
   apps/web:
     specifiers:
@@ -3365,10 +3349,6 @@ packages:
   /connect-history-api-fallback/2.0.0:
     resolution: {integrity: sha512-U73+6lQFmfiNPrYbXqr6kZ1i1wiRqXnp2nhMsINseWXO8lDau0LGEffJ8kQi4EjLZympVgRdvqjAgiZ1tgzDDA==}
     engines: {node: '>=0.8'}
-    dev: true
-
-  /consola/2.15.3:
-    resolution: {integrity: sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==}
     dev: true
 
   /content-disposition/0.5.4:
@@ -6911,11 +6891,6 @@ packages:
       renderkid: 3.0.0
     dev: true
 
-  /pretty-time/1.1.0:
-    resolution: {integrity: sha512-28iF6xPQrP8Oa6uxE6a1biz+lWeTOAPKggvjB8HAs6nVMKZwf5bG++632Dx614hIWgUPkgivRfG+a8uAXGTIbA==}
-    engines: {node: '>=4'}
-    dev: true
-
   /process-nextick-args/2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
     dev: true
@@ -7568,10 +7543,6 @@ packages:
   /statuses/2.0.1:
     resolution: {integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==}
     engines: {node: '>= 0.8'}
-    dev: true
-
-  /std-env/3.2.1:
-    resolution: {integrity: sha512-D/uYFWkI/31OrnKmXZqGAGK5GbQRPp/BWA1nuITcc6ICblhhuQUPHS5E2GSCVS7Hwhf4ciq8qsATwBUxv+lI6w==}
     dev: true
 
   /stream-transform/2.1.3:
@@ -8339,19 +8310,6 @@ packages:
       - '@swc/core'
       - esbuild
       - uglify-js
-    dev: true
-
-  /webpackbar/5.0.2_webpack@5.74.0:
-    resolution: {integrity: sha512-BmFJo7veBDgQzfWXl/wwYXr/VFus0614qZ8i9znqcl9fnEdiVkdbi0TedLQ6xAK92HZHDJ0QmyQ0fmuZPAgCYQ==}
-    engines: {node: '>=12'}
-    peerDependencies:
-      webpack: 3 || 4 || 5
-    dependencies:
-      chalk: 4.1.2
-      consola: 2.15.3
-      pretty-time: 1.1.0
-      std-env: 3.2.1
-      webpack: 5.74.0_webpack-cli@4.10.0
     dev: true
 
   /websocket-driver/0.7.4:
