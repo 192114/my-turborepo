@@ -4,7 +4,7 @@
   "scss.validate": false,
   "stylelint.enable": true,
   "stylelint.validate": ["css"],
-  "stylelint.packageManager":"pnpm",
+  // "stylelint.packageManager":"pnpm",
   "stylelint.stylelintPath": "./packages/config/node_modules/stylelint",
   "stylelint.configBasedir": "./packages/config/node_modules",
   "files.eol": "\n",
@@ -25,7 +25,7 @@
   "eslint.enable": true,
   "eslint.run": "onSave",
   "eslint.debug": true,
-  "eslint.packageManager": "pnpm",
+  // "eslint.packageManager": "pnpm",
   "eslint.validate": ["typescript", "typescriptreact", "javascript", "javascriptreact"],
   "git.ignoreLimitWarning": true,
 }

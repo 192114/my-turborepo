@@ -8,8 +8,8 @@ function Login() {
   const [count, setCount] = useState(10)
 
   useEffect(() => {
-    setCount(count + 1)
-  }, [])
+    setCount(pre => pre + 1)
+  }, [count])
 
   return (
     <div>
