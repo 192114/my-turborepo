@@ -7,9 +7,14 @@
     "eslint-react.js",
     "eslint-next.js",
     "stylelint-config.js",
-    "postcss-config.js"
+    "postcss-config.js",
+    "babel-config.js"
   ],
   "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
     "browserslist": "^4.21.4",
