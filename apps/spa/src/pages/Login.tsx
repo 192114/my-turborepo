@@ -8,6 +8,9 @@ function Login() {
   const [count, setCount] = useState(10)
 
   useEffect(() => {
+    if (count > 10) {
+      return
+    }
     setCount(pre => pre + 1)
   }, [count])
 
