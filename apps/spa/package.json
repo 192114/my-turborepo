@@ -9,7 +9,8 @@
     "build": "webpack --mode production --config ./config/webpack.config.production.js",
     "prettier": "prettier . --write",
     "lint:js": "eslint --fix --ext .ts,.tsx src/*",
-    "lint:style": "stylelint --fix **/*.{css,scss}"
+    "lint:style": "stylelint --fix **/*.{css,scss}",
+    "clean": "rimraf .turbo && rimraf node_modules"
   },
   "keywords": [],
   "author": "shadow",
