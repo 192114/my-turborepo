@@ -6,15 +6,29 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint *.ts*",
-    "clean": "rimraf .turbo && rimraf node_modules"
+    "clean": "rimraf .turbo && rimraf node_modules",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
-    "eslint": "^7.32.0",
     "config": "workspace:*",
+    "eslint": "^7.32.0",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "tsconfig": "workspace:*",
-    "typescript": "^4.5.2"
-  }
+    "typescript": "^4.5.2",
+    "@storybook/react": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.12",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/builder-webpack5": "^6.5.12",
+    "@storybook/manager-webpack5": "^6.5.12",
+    "@babel/core": "^7.19.3",
+    "babel-loader": "^8.2.5"
+  },
+  "dependencies": {}
 }
