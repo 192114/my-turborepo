@@ -11,19 +11,18 @@
     "build-storybook": "storybook build"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-alpha.40",
+    "@storybook/addon-interactions": "^7.0.0-alpha.40",
+    "@storybook/addon-links": "^7.0.0-alpha.40",
+    "@storybook/react": "^7.0.0-alpha.40",
+    "@storybook/react-webpack5": "^7.0.0-alpha.40",
+    "@storybook/testing-library": "^0.0.13",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "config": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tsconfig": "workspace:*",
     "storybook": "^7.0.0-alpha.40",
-    "@storybook/react": "^7.0.0-alpha.40",
-    "@storybook/react-webpack5": "^7.0.0-alpha.40",
-    "@storybook/addon-links": "^7.0.0-alpha.40",
-    "@storybook/addon-essentials": "^7.0.0-alpha.40",
-    "@storybook/addon-interactions": "^7.0.0-alpha.40",
-    "@storybook/testing-library": "^0.0.13"
-  },
-  "dependencies": {}
+    "tsconfig": "workspace:*"
+  }
 }

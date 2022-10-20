@@ -4993,7 +4993,7 @@ packages:
       loader-utils: 2.0.2
       make-dir: 3.1.0
       schema-utils: 2.7.1
-      webpack: 5.74.0_webpack-cli@4.10.0
+      webpack: 5.74.0_esbuild@0.15.12
     dev: true
 
   /babel-plugin-add-react-displayname/0.0.5:
@@ -5849,7 +5849,7 @@ packages:
       postcss-modules-values: 4.0.0_postcss@8.4.17
       postcss-value-parser: 4.2.0
       semver: 7.3.7
-      webpack: 5.74.0_webpack-cli@4.10.0
+      webpack: 5.74.0_esbuild@0.15.12
     dev: true
 
   /css-prefers-color-scheme/6.0.3_postcss@8.4.17:
@@ -8353,7 +8353,7 @@ packages:
       lodash: 4.17.21
       pretty-error: 4.0.0
       tapable: 2.2.1
-      webpack: 5.74.0_webpack-cli@4.10.0
+      webpack: 5.74.0_esbuild@0.15.12
     dev: true
 
   /htmlparser2/6.1.0:
@@ -13240,7 +13240,7 @@ packages:
     peerDependencies:
       webpack: ^5.0.0
     dependencies:
-      webpack: 5.74.0_webpack-cli@4.10.0
+      webpack: 5.74.0_esbuild@0.15.12
     dev: true
 
   /style-search/0.1.0:
@@ -14156,7 +14156,7 @@ packages:
       mime-types: 2.1.35
       range-parser: 1.2.1
       schema-utils: 4.0.0
-      webpack: 5.74.0_webpack-cli@4.10.0
+      webpack: 5.74.0_esbuild@0.15.12
     dev: true
 
   /webpack-dev-server/4.11.1_5v66e2inugklgvlh4huuavolfq:

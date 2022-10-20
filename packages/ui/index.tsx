@@ -1,7 +1,6 @@
-import Button from './Button'
-import Input from './Input'
+import Button from './components/button'
 
 export {
+  // eslint-disable-next-line import/prefer-default-export
   Button,
-  Input
 }
