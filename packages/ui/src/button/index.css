@@ -1,0 +1,19 @@
+.ui-button-base {
+  padding: 0;
+  border: none;
+  font-weight: normal;
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+  outline: 0 none;
+  user-select: none;
+  cursor: pointer;
+  touch-action: manipulation;
+  /* stylelint-disable-next-line property-no-vendor-prefix */
+  -webkit-appearance: none;
+  background-color: var(--ui-primary);
+
+  &.default {
+    background-color: #aaa;
+  }
+}
