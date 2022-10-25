@@ -1,18 +1,24 @@
+import type { ReactNode } from 'react'
+import cn from 'classnames'
 import './index.css'
 
 interface ButtonPropsType {
-  theme: string
-  block: boolean
+  theme?: string
+  block?: boolean
+  children: ReactNode
 }
 
-const defaultProps: ButtonPropsType = {
+export default function Button(props: ButtonPropsType) {
+  const { theme, block, children } = props
+
+  const classname = cn('ui-button-base', theme, {
+    block
+  })
+
+  return <button className={classname} type="button">{children}</button>
+}
+
+Button.defaultProps = {
   theme: 'default',
-  block: false,
-}
-
-export default function Button() {
-
-
-
-  return <button className="ui-button-base default" type="button">Boop</button>
+  block: false
 }
