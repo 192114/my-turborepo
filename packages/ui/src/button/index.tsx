@@ -8,7 +8,7 @@ interface ButtonPropsType {
   children: ReactNode
 }
 
-export default function Button(props: ButtonPropsType) {
+function Button(props: ButtonPropsType) {
   const { theme, block, children } = props
 
   const classname = cn('ui-button-base', theme, {
@@ -22,3 +22,5 @@ Button.defaultProps = {
   theme: 'default',
   block: false
 }
+
+export default Button

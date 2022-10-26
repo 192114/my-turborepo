@@ -1,3 +1,9 @@
+const config = require('config/eslint-react.js')
+
 module.exports = {
-  ...require('config/eslint-react.js'),
+  ...config,
+  rules: {
+    ...config.rules,
+    'react/jsx-props-no-spreading': 'off'
+  }
 };
